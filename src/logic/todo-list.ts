@@ -22,9 +22,7 @@ export class TodoList {
   }
 
   addTask(taskToAdd: Task) {
-    if (taskToAdd.name) {
-      this.tasks.push(taskToAdd)
-    }
+    console.log('Woops this is broken')
   }
 
   deleteTask(taskToRemove: Task) {
